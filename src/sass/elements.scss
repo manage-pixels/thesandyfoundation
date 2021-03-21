@@ -10,14 +10,27 @@ body {
   color: white !important;
 
   a {
-    color: whitesmoke;
+    color: red;
   }
 
   a:hover,
   a:active,
   a:visited {
     text-decoration: none;
-    color: whitesmoke;
+    color: #e60303;
+  }
+
+  main {
+    a {
+      color: whitesmoke;
+    }
+
+    a:hover,
+    a:active,
+    a:visited {
+      text-decoration: none;
+      color: whitesmoke;
+    }
   }
 
   .fp-footer,
@@ -29,9 +42,11 @@ body {
     border-top: 1px solid #222222;
   }
 
-  header {
-    height: auto;
-    min-height: 85vh;
+  #cover-page {
+    header {
+      height: auto;
+      min-height: 85vh;
+    }
   }
 
   svg {
