@@ -29,7 +29,20 @@ body {
     border-top: 1px solid #222222;
   }
 
+  header {
+    height: auto;
+    min-height: 85vh;
+  }
 
+  svg {
+    fill: whitesmoke;
+  }
+
+  nav:target {
+    background-color: rgba(8, 8, 8, 0.863);
+    width: 100%;
+    top: 0;
+  }
 
 }
 
