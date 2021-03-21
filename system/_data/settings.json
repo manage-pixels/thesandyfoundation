@@ -1,15 +1,16 @@
 {
-  "title": "The Sandy Family Foundation",
+  "title": "The Sandy Foundation",
   "url": "https://proideas.dev/",
   "description": "Seeking to uplift, inspire, and transform the lives of the African Family",
+  "slug": "www.thesandyfoundation.org",
   "feed": {
-    "subtitle": "A UI toolkit for creating and managing design/style systems, pattern libraries, style-guides, etc",
+    "subtitle": "www.thesandyfoundation.org",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://proideas.dev/"
   },
   "author": {
-    "name": "The Sandy Family Foundation",
+    "name": "The Sandy Foundation",
     "email": "shawnsandy@proideas.dev"
   },
   "styles": [],
