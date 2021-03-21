@@ -1,7 +1,7 @@
 {
-  "title": "First.Paint Pages",
+  "title": "The Sandy Family Foundation",
   "url": "https://proideas.dev/",
-  "description": "A minimalist UI Toolkit for building stylish, performance driven, accessibility first websites",
+  "description": "Seeking to uplift, inspire, and transform the lives the African community",
   "feed": {
     "subtitle": "A UI toolkit for creating and managing design/style systems, pattern libraries, style-guides, etc",
     "filename": "feed.xml",
@@ -9,7 +9,7 @@
     "id": "https://proideas.dev/"
   },
   "author": {
-    "name": "Shawn Sandy",
+    "name": "The Sandy Family Foundation",
     "email": "shawnsandy@proideas.dev"
   },
   "styles": [],

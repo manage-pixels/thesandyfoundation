@@ -5,8 +5,14 @@ const pluginRss = require("@11ty/eleventy-plugin-rss")
 const markdown = require("@shawnsandy/ideas/lib/markdown")
 const image = require("@11ty/eleventy-img")
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
+const CleanCSS = require("clean-css")
 
 module.exports = function (eleventyConfig) {
+
+  // css-min filter
+  eleventyConfig.addFilter("cssmin", (code) => {
+    return new CleanCSS({}).minify(code).styles
+  })
 
   eleventyConfig.setBrowserSyncConfig({
     notify: true,

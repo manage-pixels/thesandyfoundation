@@ -3,7 +3,63 @@
 
 @include components.button-links();
 @include components.form-elements();
-@include components.header-addBorders();
+// @include components.header-addBorders();
+
+body {
+  background-color: #000000 !important;
+  color: white !important;
+
+  a {
+    color: red;
+  }
+
+  a:hover,
+  a:active,
+  a:visited {
+    text-decoration: none;
+    color: #e60303;
+  }
+
+  main {
+    a {
+      color: whitesmoke;
+    }
+
+    a:hover,
+    a:active,
+    a:visited {
+      text-decoration: none;
+      color: whitesmoke;
+    }
+  }
+
+  .fp-footer,
+  footer[role=contentinfo] {
+    border: none
+  }
+
+  hr {
+    border-top: 1px solid #222222;
+  }
+
+  #cover-page {
+    header {
+      height: auto;
+      min-height: 85vh;
+    }
+  }
+
+  svg {
+    fill: whitesmoke;
+  }
+
+  nav:target {
+    background-color: rgba(8, 8, 8, 0.863);
+    width: 100%;
+    top: 0;
+  }
+
+}
 
 a[role=button]>em {
   filter: contrast(1.15);
