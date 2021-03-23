@@ -19,35 +19,37 @@
   </head>
 
   <body>
-    <header id="cover-page">
-      {% include 'partials/nav.njk' %}
-      <section role="banner">
+    <section role="region" aria-label="cover page" data-cover>
+      <header id="cover-page">
+        {% include 'partials/nav.njk' %}
+        <section role="banner">
+          <div>
+            <!-- <img src="img/fp.svg" alt="" /> -->
+            <h2>{{ settings.description }}</h2>
+            <p>
+              <span>{{ settings.slug }}</span>
+            </p>
+            <p>
+              <a
+                href="/"
+                role="button"
+                aria-label="Add word, cta action, to your button title"
+              >
+                <em>Get in touch</em></a
+              >
+            </p>
+          </div>
+        </section>
+      </header>
+      <footer role="contentinfo">
         <div>
-          <!-- <img src="img/fp.svg" alt="" /> -->
-          <h2>{{ settings.description }}</h2>
           <p>
-            <span>{{ settings.slug }}</span>
-          </p>
-          <p>
-            <a
-              href="/"
-              role="button"
-              aria-label="Add word, cta action, to your button title"
-            >
-              <em>Get in touch</em></a
-            >
+            Copyright &copy; {{ hlp.11ty.year() }} {{ settings.author.name }}
+            all rights reserved
           </p>
         </div>
-      </section>
-    </header>
-    <footer role="contentinfo">
-      <section>
-        <p>
-          Copyright &copy; {{ hlp.11ty.year() }} {{ settings.author.name }} all
-          rights reserved
-        </p>
-      </section>
-    </footer>
+      </footer>
+    </section>
     <!-- <script src="index.js"></script> -->
   </body>
 </html>

@@ -55,12 +55,16 @@ body {
     fill: whitesmoke;
   }
 
-  nav:target {
+  nav {
     background-color: rgba(8, 8, 8, 0.863);
     width: 100%;
     top: 0;
   }
 
+}
+
+nav[data-mobile] section:target {
+  background-color: rgba(14, 13, 13, 0.95) !important;
 }
 
 a[role=button]>em {
