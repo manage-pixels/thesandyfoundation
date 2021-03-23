@@ -1,6 +1,6 @@
 <nav data-mobile aria-label="Main navigation">
   <section>
-     <section data-show-mobile>
+    <section data-show-mobile>
       <a
         role="button"
         aria-label="Navigation button"
@@ -22,22 +22,20 @@
         </small>
       </a>
     </section>
-  <section data-brand>
-    <h1>
-      {% include 'partials/brand.njk' %}
-    </h1>
+    <section data-brand>
+      <h1>{% include 'partials/brand.njk' %}</h1>
+    </section>
   </section>
- </section>
 
   {% set navPages = collections.all | eleventyNavigation %}
   <section id="sidebar">
     <ul>
-    {%- for entry in navPages %}
-      <li>
+      {%- for entry in navPages %}
+      <!-- <li>
         <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-      </li>
-    {%- endfor %}
-    <li>
+      </li> -->
+      {%- endfor %}
+      <li>
         <div data-show-mobile>
           <a href="#">
             <span>
