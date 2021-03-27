@@ -1,0 +1,9 @@
+---
+eleventyExcludeFromCollections: true
+permalink: css/utilities/fonts.html
+---
+
+{%- for font in style.fonts.entities %}
+{{ font | log }}
+{{ font.name }}
+{%- endfor %}
