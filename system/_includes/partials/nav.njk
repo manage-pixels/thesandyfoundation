@@ -1,8 +1,8 @@
 <nav data-mobile aria-label="Main navigation">
   <section>
-      <section data-brand->
+    <section data-brand->
       <h1>
-         <img src="/images/logo-s.svg" alt="" />
+        <img src="/images/logo-s.svg" alt="" />
       </h1>
     </section>
     <section data-show-mobile>
@@ -27,16 +27,15 @@
         </small>
       </a>
     </section>
-
   </section>
 
   {% set navPages = collections.all | eleventyNavigation %}
   <section id="sidebar">
     <ul>
       {%- for entry in navPages %}
-      <li>
+      <!-- <li>
         <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-      </li>
+      </li> -->
       {%- endfor %}
       <li>
         <div data-show-mobile>
