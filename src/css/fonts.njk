@@ -1,9 +1,9 @@
 ---
 eleventyExcludeFromCollections: true
-permalink: css/utilities/fonts.html
+permalink: css/utilities/fonts.css
 ---
 
-{%- for font in style.fonts.entities %}
-{{ font | log }}
-{{ font.name }}
-{%- endfor %}
+{% for elm in style.fonts.entities %} {% for token in elm.tokens %} .{{
+  elm.name
+}}-{{ token.key }} { font-{{ token.key }}: {{ token.value | lower }}; } {%-
+endfor -%} {%- endfor -%}

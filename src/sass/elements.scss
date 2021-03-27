@@ -1,7 +1,7 @@
 // TODO: Add utility classes to style pages
 
 // TODO Feat: Create a separate style sheet for the landing page/styles
-
+@use '../../system/style-guide/dist/styledictionary/scss/variables.scss'as token;
 @use '@shawnsandy/first-paint/src/components.scss';
 
 @include components.button-links();
@@ -10,25 +10,33 @@
 
 // @include components.header-addBorders();
 
+// token.$logo-red: white;
+
+[data-main-nav] {
+  display: flex;
+  padding: .5rem 0;
+  align-items: center;
+  justify-items: flex-start;
+}
 
 body {
-  background-color: #000000 !important;
-  color: white !important;
+  background-color: token.$charcoal !important;
+  color: token.$text-color !important;
 
   a {
-    color: red;
+    color: token.$logo-red;
   }
 
   a:hover,
   a:active,
   a:visited {
     text-decoration: none;
-    color: #e60303;
+    color: token.$logo-red;
   }
 
   main {
     a {
-      color: whitesmoke;
+      color: token.$light-smoke;
     }
 
     a:hover,
@@ -52,6 +60,12 @@ body {
     header {
       height: auto;
       min-height: 85vh;
+
+    }
+
+    h2 {
+      // font-size: 2rem;
+      padding: 2rem;
     }
   }
 
@@ -60,7 +74,7 @@ body {
   }
 
   nav {
-    background-color: rgba(8, 8, 8, 0.863);
+    background-color: token.$charcoal;
     width: 100%;
     top: 0;
   }

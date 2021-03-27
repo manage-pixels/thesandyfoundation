@@ -1,7 +1,8 @@
 {
   // settings.json
   "emmet.includeLanguages": {
-    "nunjucks": "html"
+    "nunjucks": "html",
+    "njk": "html"
   },
   "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,

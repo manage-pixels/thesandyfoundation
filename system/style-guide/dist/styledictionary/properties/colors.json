@@ -1,0 +1,16 @@
+{
+  "color": {
+    "logo-red": {
+      "value": "#B10000ff"
+    },
+    "light-smoke": {
+      "value": "#EEEEEEff"
+    },
+    "charcoal": {
+      "value": "#131414ff"
+    },
+    "text-color": {
+      "value": "#F5F5F5ff"
+    }
+  }
+}

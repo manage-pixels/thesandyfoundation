@@ -19,11 +19,19 @@
   </head>
 
   <body>
+    <section data-main-nav>
+      <div>
+        <img src="/images/logo-s.svg" alt="" />
+      </div>
+      <section>{% include 'partials/nav.njk' %}</section>
+    </section>
     <section role="region" aria-label="cover page" data-cover>
       <header id="cover-page">
-        {% include 'partials/nav.njk' %}
         <section role="banner">
           <div>
+            <div>
+              <img src="/images/cover-logo.svg" alt="" />
+            </div>
             <!-- <img src="img/fp.svg" alt="" /> -->
             <h2>{{ settings.description }}</h2>
             <p>
