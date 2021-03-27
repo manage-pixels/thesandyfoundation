@@ -10,4 +10,5 @@ node_modules/
 **/node_modules
 system/debug
 styledictionary/
-**/styledictionary
+system/dsp/dist/styledictionary/
+

@@ -1,12 +1,12 @@
 {
   "dsp_spec_version": "0.0.1",
   "last_updated_by": "",
-  "last_updated": "2020-12-12T18:31:18.391Z",
+  "last_updated": "2021-03-27T10:20:29.191Z",
   "settings": {
-    "name": "DSP.KIT",
+    "name": "",
     "package_version": "0.0.1",
     "build_tool": "StyleDictionary",
-    "snippet_trigger_prefix": "dsp-",
+    "snippet_trigger_prefix": "xd_",
     "build_status_label": "dev",
     "build_params": "./config.js",
     "languages": [
@@ -81,7 +81,7 @@
       },
       {
         "label": "JavaScript",
-        "export_tokens": true,
+        "export_tokens": false,
         "snippet_id": "javascript",
         "syntax": "text/javascript",
         "ext-com_adobe_xd-styledictionary_id": "js"
@@ -149,7 +149,7 @@
       },
       {
         "label": "SCSS",
-        "export_tokens": true,
+        "export_tokens": false,
         "snippet_id": "scss",
         "syntax": "text/x-sass",
         "ext-com_adobe_xd-styledictionary_id": "scss"
