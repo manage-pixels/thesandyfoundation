@@ -1,0 +1,30 @@
+{
+  "font": {
+    "headline": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Bold"
+      }
+    },
+    "default": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Bold"
+      }
+    }
+  },
+  "size": {
+    "font": {
+      "headline": {
+        "value": "50"
+      },
+      "default": {
+        "value": "16"
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "dsp_spec_version": "0.0.1",
+  "last_updated_by": "",
+  "last_updated": "2021-03-27T10:26:04.812Z",
+  "entities": [
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "ee6f4ba8-a6d9-4953-a84c-e33cef1fb28e",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "button",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/b071e0b7-dd39-4893-763b-b2b446bc413f",
+        "id": "68b5bb9e-9a2c-4600-b672-c1e5d5ba438f",
+        "last_sync": "2021-03-27T10:26:04.812Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "1ad0be57-881e-4910-afa0-d687fd77f7a0",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "cover-logo",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/b071e0b7-dd39-4893-763b-b2b446bc413f",
+        "id": "5a65c2c4-eb66-4972-902c-c9fe77632837",
+        "last_sync": "2021-03-27T10:26:04.812Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "58edbae6-aba5-4123-a3cc-63196051ba54",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "logo",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/b071e0b7-dd39-4893-763b-b2b446bc413f",
+        "id": "b79dda58-17f9-465d-8874-d56123cf5aad",
+        "last_sync": "2021-03-27T10:26:04.812Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "392af04e-2e45-4669-932f-7ee3743ae7f6",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "logo-s",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/b071e0b7-dd39-4893-763b-b2b446bc413f",
+        "id": "e3a24f05-63c0-4d25-b340-e419ced0ba5b",
+        "last_sync": "2021-03-27T10:26:04.812Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "1243cc96-5bd0-4bda-8873-f5f9a7c29d05",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "logo-s",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/b071e0b7-dd39-4893-763b-b2b446bc413f",
+        "id": "05639c63-629f-4f4c-95b8-9e65b78cda72",
+        "last_sync": "2021-03-27T10:26:04.812Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "6c930288-1207-4022-8456-758e2572efca",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "logo-text",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/b071e0b7-dd39-4893-763b-b2b446bc413f",
+        "id": "2815c6f7-c0c6-45c7-ad2e-5666e511a453",
+        "last_sync": "2021-03-27T10:26:04.812Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "20054671-a423-483a-979e-476cab8af7aa",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "nav-logo",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/b071e0b7-dd39-4893-763b-b2b446bc413f",
+        "id": "b18e1137-be3a-4f1c-930b-87e24869825a",
+        "last_sync": "2021-03-27T10:26:04.812Z",
+        "sync": true
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "xd.lastPackage": "/C:/Users/shawn/DSP/11ty-dsp-kit/system/dsp",
   // settings.json
   "emmet.includeLanguages": {
-    "nunjucks": "html"
+    "nunjucks": "html",
+    "njk": "html"
   },
   "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,
@@ -13,5 +13,6 @@
   "editor.formatOnType": true,
   "editor.tabSize": 2,
   "workbench.tree.indent": 4,
-  "xd.globalEditor": true
+  "xd.globalEditor": true,
+  "xd.lastPackage": "/c:/Users/shawn/dev-projects/manage-pixels/thesandyfoundation/system/style-guide"
 }
