@@ -20,7 +20,17 @@
     <meta name="description" content="{{ pkg.description }}" />
     {% block head %}
     <title>{{ settings.title }} | {{ title }}</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@shawnsandy/bootstrap-lite@0.1.12/dist/bootstrap-lite.min.css"
+      integrity="sha256-fWD8Fwp3OBgAO3U++pLcI6eiBv8wxHErYQJ8m/QxGPc="
+      crossorigin="anonymous"
+    />
     <!-- custom stylesheets -->
+    {% set css %} {% include "src/css/critical.css" %} {% endset %}
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
     <link
       rel="stylesheet"
       href="/css/styles.css"

@@ -1,7 +1,7 @@
 {
   "layout": "posts.njk",
-  "title": "Content Page",
-  "tags": "news",
+  "title": "Eduction",
+  "tags": "education",
   "showDate": true,
   "scripts": []
 }

@@ -1,0 +1,7 @@
+{
+  "layout": "page.njk",
+  "title": "Shop",
+  "tags": "page",
+  "showDate": true,
+  "scripts": []
+}

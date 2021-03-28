@@ -1,7 +1,9 @@
 // TODO: Add utility classes to style pages
 
 // TODO Feat: Create a separate style sheet for the landing page/styles
+
 @use '../../system/style-guide/dist/styledictionary/scss/variables.scss'as token;
+
 @use '@shawnsandy/first-paint/src/components.scss';
 
 @include components.button-links();
@@ -83,7 +85,7 @@ body {
     top: 0;
 
     @media (min-width: 980px) {
-      width: 90% !important;
+      width: 80% !important;
     }
   }
 

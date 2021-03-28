@@ -2,7 +2,9 @@
   <section>
     <section data-brand- data-show-desktop>
       <h1>
-        <img src="/images/logo-s.svg" alt="" />
+        <a href="/">
+          <img src="/images/logo-s.svg" alt="" />
+        </a>
       </h1>
     </section>
     <section data-show-mobile>
@@ -33,9 +35,9 @@
   <section id="sidebar">
     <ul>
       {%- for entry in navPages %}
-      <!-- <li>
+      <li>
         <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-      </li> -->
+      </li>
       {%- endfor %}
       <li>
         <div data-show-mobile>
