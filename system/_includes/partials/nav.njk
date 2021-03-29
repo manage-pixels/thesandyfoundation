@@ -1,14 +1,7 @@
-<section role="region" aria-label="top-nav" class="dark-bg py-5">
+<section role="region" aria-label="top-nav" class="dark-bg py-lg-4">
 
   <nav data-mobile aria-label="Main navigation" class="dark-bg">
     <section>
-      <section data-brand- data-show-desktop>
-        <h1>
-          <a href="/">
-            <img src="/images/logo-s.svg" alt="" />
-          </a>
-        </h1>
-      </section>
       <section data-show-mobile>
         <a
           role="button"
@@ -30,6 +23,20 @@
             </span>
           </small>
         </a>
+      </section>
+      <section data-brand- data-show-desktop>
+        <h1>
+          <a href="/">
+            <img src="/images/logo-s.svg" alt="" />
+          </a>
+        </h1>
+      </section>
+      <section data-brand data-show-mobile="">
+        <h1>
+          <a href="/">
+            {{ settings.title }}
+          </a>
+        </h1>
       </section>
     </section>
 

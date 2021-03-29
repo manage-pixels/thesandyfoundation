@@ -82,6 +82,10 @@ body {
 
 }
 
+svg {
+  fill: whitesmoke;
+}
+
 a[role=button]>em {
   filter: contrast(1.15);
 }
@@ -112,4 +116,8 @@ strong {
     padding: 3rem 0;
   }
 
+}
+
+nav[data-mobile] section:target {
+  background-color: rgba(14, 13, 13, 0.95) !important;
 }
