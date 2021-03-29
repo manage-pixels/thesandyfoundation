@@ -1,0 +1,71 @@
+@use '../../system/style-guide/dist/styledictionary/scss/variables.scss'as token;
+
+body {
+  background-color: token.$charcoal !important;
+  color: token.$text-color !important;
+
+  a {
+    color: token.$logo-red;
+  }
+
+  a:hover,
+  a:active,
+  a:visited {
+    text-decoration: none;
+    color: token.$logo-red;
+  }
+
+  main {
+    a {
+      color: token.$light-smoke;
+    }
+
+    a:hover,
+    a:active,
+    a:visited {
+      text-decoration: none;
+      color: whitesmoke;
+    }
+
+    min-height: 40vh;
+  }
+
+  .fp-footer,
+  footer[role=contentinfo] {
+    border: none
+  }
+
+  hr {
+    border-top: 1px solid #222222;
+  }
+
+  #cover-page {
+    header {
+      height: auto;
+      min-height: 85vh;
+
+    }
+
+    h2 {
+      // font-size: 2rem;
+      padding: 2rem;
+    }
+  }
+
+  svg {
+    fill: whitesmoke;
+  }
+
+  nav {
+    background-color: token.$charcoal;
+    width: 100%;
+    top: 0;
+
+  }
+
+  nav[data-mobile] section:target {
+    background-color: rgba(14, 13, 13, 0.95) !important;
+  }
+
+
+}

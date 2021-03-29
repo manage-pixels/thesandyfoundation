@@ -1,47 +1,22 @@
-<nav data-mobile aria-label="Main navigation">
-  <section>
-    <section data-brand- data-show-desktop>
-      <h1>
-        <a href="/">
-          <img src="/images/logo-s.svg" alt="" />
-        </a>
-      </h1>
-    </section>
-    <section data-show-mobile>
-      <a
-        role="button"
-        aria-label="Navigation button"
-        href="#sidebar"
-        data-sidebar-button
-      >
-        <small>
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="24"
-              height="24"
-            >
-              <path fill="none" d="M0 0h24v24H0z" />
-              <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z" />
-            </svg>
-          </span>
-        </small>
-      </a>
-    </section>
-  </section>
+<section role="region" aria-label="top-nav" class="dark-bg py-5">
 
-  {% set navPages = collections.all | eleventyNavigation %}
-  <section id="sidebar">
-    <ul>
-      {%- for entry in navPages %}
-      <li>
-        <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-      </li>
-      {%- endfor %}
-      <li>
-        <div data-show-mobile>
-          <a href="#">
+  <nav data-mobile aria-label="Main navigation" class="dark-bg">
+    <section>
+      <section data-brand- data-show-desktop>
+        <h1>
+          <a href="/">
+            <img src="/images/logo-s.svg" alt="" />
+          </a>
+        </h1>
+      </section>
+      <section data-show-mobile>
+        <a
+          role="button"
+          aria-label="Navigation button"
+          href="#sidebar"
+          data-sidebar-button
+        >
+          <small>
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,14 +25,42 @@
                 height="24"
               >
                 <path fill="none" d="M0 0h24v24H0z" />
-                <path
-                  d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
-                />
+                <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z" />
               </svg>
             </span>
-          </a>
-        </div>
-      </li>
-    </ul>
-  </section>
-</nav>
+          </small>
+        </a>
+      </section>
+    </section>
+
+    {% set navPages = collections.all | eleventyNavigation %}
+    <section id="sidebar">
+      <ul>
+        {%- for entry in navPages %}
+        <li>
+          <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+        </li>
+        {%- endfor %}
+        <li>
+          <div data-show-mobile>
+            <a href="#">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                >
+                  <path fill="none" d="M0 0h24v24H0z" />
+                  <path
+                    d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </nav>
+</section>
