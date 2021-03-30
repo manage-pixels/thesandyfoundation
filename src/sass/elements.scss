@@ -21,6 +21,7 @@
   justify-items: flex-start;
 }
 
+
 .dark-bg {
   background-color: token.$charcoal !important;
 }
@@ -35,6 +36,11 @@
 
 .text-light {
   color: token.$text-color !important;
+}
+
+html {
+  font-family: 'Montserrat',
+    sans-serif !important;
 }
 
 body {

@@ -6,6 +6,8 @@ eleventyNavigation:
   order: 1
 ---
 
+![alt](/images/origin-story.jpeg)
+
 ### The Story of Us
 
 In the early morning hours of  October 30th  2002, Esme Lionel Sandy  exhaled his final breath, leaving behind the great love of his life.  In September 20th 2006, his love, Pomelia too passed, closing the chapter of a love story that endured the test of time for a little over seventy-five years.
