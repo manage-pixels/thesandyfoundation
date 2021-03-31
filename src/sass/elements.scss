@@ -127,3 +127,10 @@ strong {
 nav[data-mobile] section:target {
   background-color: rgba(14, 13, 13, 0.95) !important;
 }
+
+
+footer[role="contentinfo"] {
+  nav {
+    justify-content: center !important;
+  }
+}

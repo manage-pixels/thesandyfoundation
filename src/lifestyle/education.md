@@ -1,5 +1,5 @@
 ---
-title: Education in black communties
+title: A look at black Education
 tags: ["lifestyle", "education"]
 ---
 

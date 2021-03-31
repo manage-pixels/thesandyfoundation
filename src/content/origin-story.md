@@ -1,5 +1,5 @@
 ---
-title: Origin Story
+title: Origin Story | The Story Of Us
 summary: "The Sandys were the reputed descendants of the legendary African warrior who led the enslaved persons in the first recorded uprising in Tobago in 1790."
 eleventyNavigation:
   key: Origin Story
