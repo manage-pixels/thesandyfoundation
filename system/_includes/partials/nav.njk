@@ -44,9 +44,11 @@
     <section id="sidebar">
       <ul>
         {%- for entry in navPages %}
+        {%- if env.environment != "production" -%}
         <li>
           <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
         </li>
+        {%- if env.environment != "production" -%}
         {%- endfor %}
         <li>
           <div data-show-mobile>
