@@ -1,5 +1,4 @@
 <section role="region" aria-label="top-nav" class="dark-bg py-lg-4">
-
   <nav data-mobile aria-label="Main navigation" class="dark-bg">
     <section>
       <section data-show-mobile>
@@ -33,9 +32,7 @@
       </section>
       <section data-brand data-show-mobile="">
         <h1>
-          <a href="/">
-            TSF
-          </a>
+          <a href="/"> TSF </a>
         </h1>
       </section>
     </section>
@@ -43,13 +40,11 @@
     {% set navPages = collections.all | eleventyNavigation %}
     <section id="sidebar">
       <ul>
-        {%- for entry in navPages %}
-        {%- if env.environment != "production" -%}
+        <!-- {%- for entry in navPages %}
         <li>
           <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
         </li>
-        {%- if env.environment != "production" -%}
-        {%- endfor %}
+        {%- endfor %} -->
         <li>
           <div data-show-mobile>
             <a href="#">
