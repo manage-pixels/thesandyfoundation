@@ -5,13 +5,8 @@
 {% block cover %} {% endblock %}
 <!-- content -->
 {% block content %}
-<main>
+<main class="py-5">
   <section>
-    {% if showDate %} Posted:
-    <time datetime="{{ page.date }}">
-      {{ page.date.toDateString() }}
-    </time>
-    {% endif %}
     {{ content | safe }}
   </section>
   <aside>{% include "partials/sidebar.njk" %}</aside>

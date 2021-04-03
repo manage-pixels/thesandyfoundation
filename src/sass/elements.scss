@@ -1,7 +1,9 @@
 // TODO: Add utility classes to style pages
 
 // TODO Feat: Create a separate style sheet for the landing page/styles
+
 @use '../../system/style-guide/dist/styledictionary/scss/variables.scss'as token;
+
 @use '@shawnsandy/first-paint/src/components.scss';
 
 @include components.button-links();
@@ -19,16 +21,36 @@
   justify-items: flex-start;
 }
 
-body {
+
+.dark-bg {
   background-color: token.$charcoal !important;
+}
+
+.text-dark {
+  color: token.$charcoal !important;
+}
+
+.text-red {
+  color: token.$logo-red !important;
+}
+
+.text-light {
   color: token.$text-color !important;
+}
+
+html {
+  font-family: 'Montserrat',
+    sans-serif !important;
+}
+
+body {
+
+  h2 {
+    // font-size: 2.6rem;
+  }
 
   a {
     color: token.$logo-red;
-  }
-
-  h2 {
-    font-size: 2.6rem;
   }
 
   a:hover,
@@ -39,26 +61,10 @@ body {
   }
 
   main {
-    a {
-      color: token.$light-smoke;
-    }
 
-    a:hover,
-    a:active,
-    a:visited {
-      text-decoration: none;
-      color: whitesmoke;
-    }
+    min-height: 40vh;
   }
 
-  .fp-footer,
-  footer[role=contentinfo] {
-    border: none
-  }
-
-  hr {
-    border-top: 1px solid #222222;
-  }
 
   #cover-page {
     header {
@@ -73,24 +79,17 @@ body {
     }
   }
 
-  svg {
-    fill: whitesmoke;
-  }
-
   nav {
-    background-color: token.$charcoal;
-    width: 100%;
-    top: 0;
 
     @media (min-width: 980px) {
-      width: 90% !important;
+      width: 80% !important;
     }
   }
 
 }
 
-nav[data-mobile] section:target {
-  background-color: rgba(14, 13, 13, 0.95) !important;
+svg {
+  fill: whitesmoke;
 }
 
 a[role=button]>em {
@@ -123,4 +122,15 @@ strong {
     padding: 3rem 0;
   }
 
+}
+
+nav[data-mobile] section:target {
+  background-color: rgba(14, 13, 13, 0.95) !important;
+}
+
+
+footer[role="contentinfo"] {
+  nav {
+    justify-content: center !important;
+  }
 }

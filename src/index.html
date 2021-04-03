@@ -8,23 +8,29 @@
     <title>{{ settings.title }}</title>
     <meta name="description" content="{{ settings.description }}" />
     <meta name="author" content="author" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@shawnsandy/bootstrap-lite@0.1.12/dist/bootstrap-lite.min.css"
+      integrity="sha256-fWD8Fwp3OBgAO3U++pLcI6eiBv8wxHErYQJ8m/QxGPc="
+      crossorigin="anonymous"
+    />
     <!-- load the critical styles inline -->
     {% set css %} {% include "src/css/cover-page.css" %} {% endset %}
-    <!-- feed it through our cssmin filter to minify -->
-    <link rel="stylesheet" href="css/elements.css" />
     <style>
       {{ css | cssmin | safe }}
     </style>
+    <!-- feed it through our cssmin filter to minify -->
+    <link rel="stylesheet" href="css/elements.css" />
+    <link rel="stylesheet" href="css/dark.css" />
   </head>
 
   <body>
     <section role="region" aria-label="cover page" data-cover>
       <header id="cover-page">
         {% include 'partials/nav.njk' %}
-        <section role="banner">
-          <div>
-            <div>
+        <section role="banner" class="lg-py-5">
+          <div class="lg-px-5">
+            <div class="pb-5">
               <img src="/images/cover-logo.svg" alt="" />
             </div>
             <!-- <img src="img/fp.svg" alt="" /> -->

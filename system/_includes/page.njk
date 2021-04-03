@@ -1,7 +1,8 @@
 {% extends "base.njk" %}
 <!-- hide cover page -->
 {% block cover %}
-<section>
-  <h2>{{ title }}</h2>
+<section class="pb-5 text-red">
+  <h2 class="text-dark text-uppercase">{{ title }}</h2>
+  <h3 class="font-weight-normal">{{ summary }}</h3>
 </section>
 {% endblock %}
