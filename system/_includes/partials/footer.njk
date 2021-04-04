@@ -3,7 +3,7 @@
     <nav>
       <section>
         <!-- <h6 id="navigate">Navigate</h6> -->
-        {% if env.node_env == 'development' %}
+        <!-- {% if env.node_env == 'development' %} -->
         <span>
           {% set navPages = collections.all | eleventyNavigation %}
           <ul class="text-uppercase">
@@ -14,7 +14,7 @@
             {%- endfor %}
           </ul>
         </span>
-        {% endif %}
+        <!-- {% endif %} -->
       </section>
     </nav>
   </div>
