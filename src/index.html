@@ -14,6 +14,7 @@
       integrity="sha256-fWD8Fwp3OBgAO3U++pLcI6eiBv8wxHErYQJ8m/QxGPc="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/transition-style" />
     <!-- load the critical styles inline -->
     {% set css %} {% include "src/css/cover-page.css" %} {% endset %}
     <style>
@@ -25,7 +26,12 @@
   </head>
 
   <body>
-    <section role="region" aria-label="cover page" data-cover>
+    <section
+      transition-style="in:wipe:up"
+      role="region"
+      aria-label="cover page"
+      data-cover
+    >
       <header id="cover-page">
         {% include 'partials/nav.njk' %}
         <section role="banner" class="lg-py-5">
