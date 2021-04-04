@@ -3,16 +3,18 @@
     <nav>
       <section>
         <!-- <h6 id="navigate">Navigate</h6> -->
+        {% if env.node_env == 'development' %}
         <span>
           {% set navPages = collections.all | eleventyNavigation %}
-          <!-- <ul>
+          <ul class="text-uppercase">
             {%- for entry in navPages %}
             <li>
               <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
             </li>
             {%- endfor %}
-          </ul> -->
+          </ul>
         </span>
+        {% endif %}
       </section>
     </nav>
   </div>
