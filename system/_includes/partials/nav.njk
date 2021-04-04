@@ -39,12 +39,14 @@
 
     {% set navPages = collections.all | eleventyNavigation %}
     <section id="sidebar">
-      <ul>
-        <!-- {%- for entry in navPages %}
+      <ul class="text-uppercase">
+        {% if env.node_env == 'development' %}
+        {%- for entry in navPages %}
         <li>
           <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
         </li>
-        {%- endfor %} -->
+        {%- endfor %}
+        {%- endif %}
         <li>
           <div data-show-mobile>
             <a href="#">

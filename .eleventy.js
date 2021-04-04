@@ -6,6 +6,7 @@ const markdown = require("@shawnsandy/ideas/lib/markdown")
 const image = require("@11ty/eleventy-img")
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
 const CleanCSS = require("clean-css")
+const embedEverything = require("eleventy-plugin-embed-everything")
 
 module.exports = function (eleventyConfig) {
 
@@ -83,6 +84,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addPlugin(markdown)
+  eleventyConfig.addPlugin(embedEverything)
 
   // navigation
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
