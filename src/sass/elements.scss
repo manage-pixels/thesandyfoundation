@@ -38,7 +38,8 @@
   color: token.$text-color !important;
 }
 
-html {
+html,
+body {
   font-family: 'Montserrat',
     sans-serif !important;
 }
@@ -47,6 +48,8 @@ body {
 
   h2 {
     // font-size: 2.6rem;
+    font-weight: 700;
+    font-size: 3.6rem;
   }
 
   a {

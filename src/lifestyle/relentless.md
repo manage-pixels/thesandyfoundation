@@ -1,7 +1,10 @@
 ---
 title: Relentless
 tags: ["lifestyle", "entertainment"]
+summary: I misappropriate these senses as I apprehend the Endless using limited senses speaking of the Most High in tenses is like boxes and fences
 ---
+
+![img](/images/relentless.jpeg)
 
 Beyond the fences of the five senses\
 where the empirical bows before the endless\
