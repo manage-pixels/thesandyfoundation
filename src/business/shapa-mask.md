@@ -1,6 +1,6 @@
 ---
 title: Shapa Mask
-tags: ['business', 'lifestyle']
+tags: ['business']
 ---
 
 ![img](/images/shapa-web.jpg)

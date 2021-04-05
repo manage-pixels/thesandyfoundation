@@ -1,2 +1,12 @@
 @use '@shawnsandy/first-paint/src/components/reset.scss';
 @use '@shawnsandy/first-paint/src/styles/cover-page.scss';
+
+body #cover-page h2 {
+  padding: 2rem;
+
+  @media (max-width: 780px) {
+    font-size: 2.4rem;
+    word-break: break-word;
+  }
+
+}

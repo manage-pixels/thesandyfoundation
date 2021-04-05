@@ -1,0 +1,7 @@
+{
+  "layout": "posts.njk",
+  "title": "Business",
+  "tags": "business",
+  "showDate": true,
+  "scripts": []
+}
